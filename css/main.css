@@ -34,6 +34,17 @@ header h1 {
     padding-left: 2%;
 }
 
+#services {
+    background: white;
+    position: absolute;
+    top: 40%;
+}
+
+#services p {
+  font-size: 1.45em;
+  padding-left: 2%;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
