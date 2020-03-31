@@ -50,7 +50,7 @@ header h1 {
 #about {
     background: white;
     position: absolute;
-    top: 122%;
+    top: 117%;
     height: auto;
 }
 
@@ -67,6 +67,15 @@ header h1 {
 #about p {
     font-size: 1.25em;
     text-align: center;
+}
+
+/***Contact***/
+
+#contact {
+    background: white;
+    position: absolute;
+    top: 162%;
+    height: auto;
 }
 
 @media only screen and (min-width: 768px) {
