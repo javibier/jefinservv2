@@ -89,6 +89,7 @@ header h1 {
 
 footer {
 	top: 190%;
+	background: rgba(255, 255, 255, .0);
 }
 
 footer h5 {
