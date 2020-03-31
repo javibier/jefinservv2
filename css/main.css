@@ -79,6 +79,14 @@ header h1 {
     text-align: center;
 }
 
+#contact p {
+    font-size: 1.15em;
+}
+
+#contact h2 {
+	font-size: 1.90em;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
