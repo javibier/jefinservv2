@@ -115,5 +115,22 @@ footer a {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+#about h2 {
+    font-size: .11875em;
+    text-align: center;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: .085938em;
+}
+
+#about p {
+    font-size: .071875em;
+    text-align: center;
+}
+
   [class*="col-"] {
     width: 100%;
+  }
+}
