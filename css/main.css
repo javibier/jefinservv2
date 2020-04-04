@@ -6,7 +6,6 @@ body, html, main, section {
     padding: 0;
     border: 0;
     font: inherit;
-    display: flex;
   }
   
   .parallax {
