@@ -50,7 +50,12 @@ header h1 {
   padding-left: 2%;
 }
 
+#services nav {
+  padding-left: 3%;
+}
+
 #services nav ul li a {
+    color: black;
     font-weight: bolder;
     font-size: 1.50em;
     text-decoration: none;
