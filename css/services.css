@@ -34,32 +34,35 @@ body, html, main, section {
  }
 
  #controller {
+ 	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
  	top: 10%;
  	padding-left: 5%;
  }
 
  #accounting {
- 	background: hsla(0, 0%, 100%, 0.8);
+ 	
  	position: absolute;
  	top: 10%;
  	padding-left: 50%
  }
 
  #bookkeeping {
+ 	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
  	top: 32%;
  	padding-left: 5%;
  }
 
  #analyst {
- 	background: hsla(0, 0%, 100%, 0.8);
+ 	
  	position: absolute;
  	top: 32%;
  	padding-left: 50%
  }
 
  #accounts {
+ 	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
  	top: 54%;
  	padding-left: 5%;
