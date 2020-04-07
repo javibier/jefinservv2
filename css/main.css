@@ -45,6 +45,10 @@ header h1 {
     text-align: center;
 }
 
+#service a {
+  text-decoration: none;
+}
+
 #service p {
   font-size: 1.45em;
   padding-left: 2%;
