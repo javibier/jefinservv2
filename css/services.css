@@ -41,7 +41,7 @@ body, html, main, section {
  #accounting {
  	position: absolute;
  	top: 10%;
- 	float: left;
+ 	float: right;
  }
 
  #bookkeeping {
