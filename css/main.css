@@ -37,7 +37,7 @@ header h1 {
 #service {
     background: white;
     position: absolute;
-    top: 20%;
+    top: 18%;
 }
 
 #service h2 {
@@ -61,7 +61,7 @@ header h1 {
 #service nav ul li a {
     color: black;
     font-weight: bolder;
-    font-size: 1.50em;
+    font-size: 1.70em;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ header h1 {
 #about {
     background: white;
     position: absolute;
-    top: 74%;
+    top: 72%;
     height: auto;
 }
 
@@ -116,7 +116,7 @@ footer a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
