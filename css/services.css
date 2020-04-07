@@ -33,6 +33,7 @@ body, html, main, section {
  	text-decoration: none;
  }
 
+
  @media screen and (min-width: 1024px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
