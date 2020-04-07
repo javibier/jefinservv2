@@ -70,7 +70,7 @@ header h1 {
 #about {
     background: white;
     position: absolute;
-    top: 117%;
+    top: 74%;
     height: auto;
 }
 
@@ -132,13 +132,22 @@ footer a {
   .col-12 {width: 100%;}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* For mobile phones: */
 
-#services p {
+
+#service p {
   font-size: 1.305em;
 }
 
+#service nav ul li a {
+    font-size: 1.235em;
+    text-decoration: none;
+}
+
+#about {
+  top: 95%;
+}
 #about h2 {
     font-size: 1.71em;
     text-align: center;
@@ -150,12 +159,12 @@ footer a {
 }
 
 #about p {
-    font-size: 1.035em;
+    font-size: 1.135em;
     text-align: center;
 }
 
 #contact p {
-    font-size: .92em;
+    font-size: 1.02em;
 }
 
 #contact h2 {
