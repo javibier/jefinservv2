@@ -12,3 +12,9 @@ body, html, main, section {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  #accounting {
+    background: white;
+    position: absolute;
+    top: 40%;
+}
