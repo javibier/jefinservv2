@@ -34,27 +34,27 @@ header h1 {
     padding-left: 2%;
 }
 
-#services {
+#service {
     background: white;
     position: absolute;
     top: 40%;
 }
 
-#services h2 {
+#service h2 {
     font-size: 1.90em;
     text-align: center;
 }
 
-#services p {
+#service p {
   font-size: 1.45em;
   padding-left: 2%;
 }
 
-#services nav {
+#service nav {
   padding-left: 3%;
 }
 
-#services nav ul li a {
+#service nav ul li a {
     color: black;
     font-weight: bolder;
     font-size: 1.50em;
