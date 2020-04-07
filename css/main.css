@@ -65,6 +65,12 @@ nav ul li a {
   padding-left: 2%;
 }
 
+#services nav ul li a {
+    font-weight: bolder;
+    font-size: 1.50em;
+    text-decoration: none;
+}
+
 /***About***/
 
 #about {
