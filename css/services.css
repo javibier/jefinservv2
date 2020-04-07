@@ -18,8 +18,8 @@ body, html, main, section {
   }
 
  header {
-    position: absolute;
-    top: 1%;
+    position: fixed;
+    top: .5%;
     height: auto;
  }
 
@@ -31,6 +31,21 @@ body, html, main, section {
 
  header h1 a {
  	text-decoration: none;
+ }
+
+ #controller {
+ 	position: absolute;
+ 	top: 10%;
+ }
+
+ #accounting {
+ 	position: absolute;
+ 	top: 30%;
+ }
+
+ #bookkeeping {
+ 	position: absolute;
+ 	top: 50%;
  }
 
  @media screen and (min-width: 1024px) {
