@@ -36,6 +36,7 @@ header h1 {
 
 nav {
     float: right;
+    padding-right: 2%;
 }
 
 nav ul li{
