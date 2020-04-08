@@ -104,38 +104,42 @@ body, html, main, section {
  #controller {
   background: hsla(0, 0%, 100%, 0.8);
   position: absolute;
-  top: 20%;
+  top: 25%;
   padding-left: 5%;
  }
 
  #accounting {
   position: absolute;
-  top: 30%;
+  top: 50%;
   padding-left: 5%;
  }
 
  #financial {
   background: hsla(0, 0%, 100%, 0.8);
   position: absolute;
-  top: 40%;
+  top: 75%;
   padding-left: 5%;
  }
 
  #budget {
   position: absolute;
-  top: 50%;
+  top: 100%;
   padding-left: 5%;
  }
 
  #accounts {
   background: hsla(0, 0%, 100%, 0.8);
-  top: 60%;
+  top: 125%;
   padding-left: 5%;
  }
 
  #payroll {
-  top: 70%;
+  top: 150%;
   padding-left: 5%;
  }
  
+ footer {
+  position: absolute;
+  top: 175%;
+ }
 }
