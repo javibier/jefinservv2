@@ -49,6 +49,10 @@ header h1 {
   text-decoration: none;
 }
 
+a:visited {
+    color: black;
+ }
+
 #service p {
   font-size: 1.45em;
   padding-left: 2%;
