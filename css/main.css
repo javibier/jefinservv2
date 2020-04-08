@@ -49,6 +49,10 @@ header h1 {
   text-decoration: none;
 }
 
+a:hover {
+    color: red;
+ }
+
 a:visited {
     color: black;
  }
