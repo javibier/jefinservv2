@@ -41,41 +41,41 @@ body, html, main, section {
  #controller {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 10%;
+ 	top: 15%;
  	padding-left: 5%;
  }
 
  #accounting {
  	
  	position: absolute;
- 	top: 10%;
+ 	top: 15%;
  	padding-left: 50%
  }
 
  #financial {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 33%;
+ 	top: 38%;
  	padding-left: 5%;
  }
 
  #budget {
  	
  	position: absolute;
- 	top: 33%;
+ 	top: 38%;
  	padding-left: 50%
  }
 
  #accounts {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 54%;
+ 	top: 59%;
  	padding-left: 5%;
  }
 
  #payroll {
  	position: absolute;
- 	top: 54%;
+ 	top: 59%;
  	padding-left: 50%
  }
  
