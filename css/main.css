@@ -142,6 +142,10 @@ footer a {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+
+#about {
+  top: 95%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -160,6 +164,7 @@ footer a {
 #about {
   top: 95%;
 }
+
 #about h2 {
     font-size: 1.71em;
     text-align: center;
