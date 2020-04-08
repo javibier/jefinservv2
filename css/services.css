@@ -101,5 +101,8 @@ body, html, main, section {
 }
 
 @media screen and (max-width: 768px) {
-  
+
+#controller {
+  top: 30%;
+}
 }
