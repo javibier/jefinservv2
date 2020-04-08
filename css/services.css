@@ -142,13 +142,13 @@ body, html, main, section {
 
  #payroll {
   background: hsla(0, 0%, 100%, 0.8);
-  top: 150%;
+  top: 166%;
   padding-left: 5%;
   width: 100%;
  }
  
  footer {
   position: absolute;
-  top: 175%;
+  top: 190%;
  }
 }
