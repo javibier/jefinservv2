@@ -50,7 +50,7 @@ header h1 {
 }
 
 a:hover {
-    color: red;
+    text-decoration: underline;
  }
 
 a:visited {
