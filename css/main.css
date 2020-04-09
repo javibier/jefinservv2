@@ -89,6 +89,8 @@ a:hover {
 
 
 #benefits {
+    display: flex;
+    justify-content: center;
     background: hsla(0, 0%, 100%, 0.8);
     position: absolute;
     top: 72%;
@@ -101,6 +103,7 @@ a:hover {
 }
 
 #time, #money, #resources {
+
     font-size: 1.15em;
     text-align: center;
 }
