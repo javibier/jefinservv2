@@ -84,6 +84,15 @@ body, html, main, section {
  #quickbooks, #accounting, #financial, #budget, #accounts, #payroll, li {
   font-size: 1.10em;
  }
+
+ footer h5 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
  
 
  @media screen and (min-width: 1025px) {
