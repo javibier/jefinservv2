@@ -43,13 +43,18 @@ header h1 {
 #service h2 {
     font-size: 1.90em;
     text-align: center;
-    color: black;
-    text-decoration: none;
 }
 
-#servive a {
-  text-decoration: none; 
-  color: black;
+#service h2 a {
+text-decoration: none;
+}
+
+a:visited {
+    color: black;
+ }
+
+a:hover {
+  text-decoration: underline;
 }
 
 #allservices {
@@ -72,6 +77,14 @@ header h1 {
     font-weight: bolder;
     font-size: 1.70em;
     text-decoration: none;
+}
+
+a:visited {
+    color: black;
+ }
+ 
+a:hover {
+  text-decoration: underline;
 }
 
 
