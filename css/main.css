@@ -43,35 +43,34 @@ header h1 {
 #service h2 {
     font-size: 1.90em;
     text-align: center;
-}
-
-#service a {
-  text-decoration: none;
-}
-
-a:visited {
     color: black;
- }
+}
 
- a:hover {
-    text-decoration: underline;
- }
+#servive h2 a {
+  text-decoration: none; 
+  color: black;
+}
 
-#service p {
+#allservices {
+  top: 18%;
+}
+
+#allservices p {
   font-size: 1.45em;
   padding-left: 2%;
 }
 
-#service nav {
+#allservices nav {
   padding-left: 3%;
 }
 
-#service nav ul li a {
+#allservices nav ul li a {
     color: black;
     font-weight: bolder;
     font-size: 1.70em;
-    text-decoration: none;
 }
+
+
 
 /***About***/
 
