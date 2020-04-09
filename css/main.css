@@ -49,13 +49,13 @@ header h1 {
 text-decoration: none;
 }
 
-a:visited {
-    color: black;
- }
-
 a:hover {
   text-decoration: underline;
 }
+
+a:visited {
+    color: black;
+ }
 
 #allservices {
   background: hsla(0, 0%, 100%, 0.8);
@@ -86,6 +86,11 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+
+#benefits {
+  
+ }
 
 /***About***/
 
