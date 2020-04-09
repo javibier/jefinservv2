@@ -52,7 +52,9 @@ header h1 {
 }
 
 #allservices {
-  top: 18%;
+  background: hsla(0, 0%, 100%, 0.8);
+  position: absolute;
+  top: 26%;
 }
 
 #allservices p {
