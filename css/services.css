@@ -50,7 +50,6 @@ body, html, main, section {
  }
 
  #accounting {
- 	
  	position: absolute;
  	top: 15%;
  	padding-left: 50%
@@ -59,27 +58,31 @@ body, html, main, section {
  #financial {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 38%;
+ 	top: 40%;
  	padding-left: 5%;
  }
 
  #budget {
  	position: absolute;
- 	top: 38%;
+ 	top: 40%;
  	padding-left: 50%
  }
 
  #accounts {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 59%;
+ 	top: 63%;
  	padding-left: 5%;
  }
 
  #payroll {
  	position: absolute;
- 	top: 59%;
+ 	top: 63%;
  	padding-left: 50%
+ }
+
+ #controller, #accounting, #financial, #budget, #accounts, #payroll li {
+  font-size: 1.10em;
  }
  
 
