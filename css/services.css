@@ -71,13 +71,13 @@ body, html, main, section {
  #accounts {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 63%;
+ 	top: 65%;
  	padding-left: 5%;
  }
 
  #payroll {
  	position: absolute;
- 	top: 63%;
+ 	top: 65%;
  	padding-left: 50%
  }
 
