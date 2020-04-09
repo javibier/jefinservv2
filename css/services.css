@@ -38,6 +38,10 @@ body, html, main, section {
     color: black;
  }
 
+ a:hover {
+    text-decoration: underline;
+ }
+
  #controller {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
