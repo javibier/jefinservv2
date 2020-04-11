@@ -85,6 +85,10 @@ body, html, main, section {
   font-size: 1.10em;
  }
 
+ #services1, #services2, #services3 {
+  display: flex;
+ }
+
  footer h5 {
     margin: 0 auto;
     text-align: center;
