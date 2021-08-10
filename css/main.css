@@ -40,7 +40,7 @@ header h1 {
     top: 15%;
 }
 
-#service h2 {
+#service p, h2 {
     font-size: 1.90em;
     text-align: center;
 }
