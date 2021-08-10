@@ -40,22 +40,10 @@ header h1 {
     top: 15%;
 }
 
-#service p, h2 {
+#service p {
     font-size: 1.90em;
     text-align: center;
 }
-
-#service h2 a {
-text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
-    color: black;
- }
 
 #allservices {
   background: hsla(0, 0%, 100%, 0.8);
@@ -72,10 +60,13 @@ a:visited {
   padding-left: 3%;
 }
 
-#allservices nav ul li a {
+#allservices nav ul li {
     color: black;
     font-weight: bolder;
     font-size: 1.70em;
+}
+
+#allservices a {
     text-decoration: none;
 }
 
