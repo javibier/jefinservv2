@@ -61,9 +61,14 @@ header h1 {
 }
 
 #allservices nav ul li {
-    color: black;
-    font-weight: bolder;
-    font-size: 1.70em;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.70em;
+}
+
+#allservices h2 {
+  font-size: 2.5em;
+  text-align: center
 }
 
 #allservices a {
