@@ -60,7 +60,7 @@ a:visited {
 #allservices {
   background: hsla(0, 0%, 100%, 0.8);
   position: absolute;
-  top: 23.9%;
+  top: 32%;
 }
 
 #allservices p {
@@ -93,7 +93,7 @@ a:hover {
     justify-content: center;
     background: hsla(0, 0%, 100%, 0.8);
     position: absolute;
-    top: 72%;
+    top: 80%;
     height: auto;
  }
 
