@@ -48,37 +48,39 @@ body, html, main, section {
  	position: absolute;
  	top: 15%;
  	padding-left: 5%;
+   height:25%;
  }
 
  #accounting {
  	position: absolute;
  	top: 15%;
- 	padding-left: 50%
+ 	padding-left: 50%;
+   height: 25%;
  }
 
  #financial {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 40%;
+ 	top: 45%;
  	padding-left: 5%;
  }
 
  #budget {
  	position: absolute;
- 	top: 40%;
+ 	top: 45%;
  	padding-left: 50%
  }
 
  #accounts {
  	background: hsla(0, 0%, 100%, 0.8);
  	position: absolute;
- 	top: 65%;
+ 	top: 70%;
  	padding-left: 5%;
  }
 
  #payroll {
  	position: absolute;
- 	top: 65%;
+ 	top: 70%;
  	padding-left: 50%
  }
 
@@ -88,6 +90,7 @@ body, html, main, section {
 
  #services1, #services2, #services3 {
   display: flex;
+  height: auto;
  }
 
  footer h5 {
