@@ -37,7 +37,7 @@ if($_POST["submit"]) {
 
     <?=$thankYou ?>
 
-    <div class="col-12" id="quickbooks">
+    <div class="col-12" id="contactform">
     <form method="post" action="subscriberform.php">
         <label>Name:</label>
         <input name="sender"><br>
@@ -46,7 +46,7 @@ if($_POST["submit"]) {
         <input name="senderEmail"><br>
 
         <label>Message:</label>
-        <textarea rows="5" cols="20" name="message"></textarea>
+        <textarea rows="5" cols="20" name="message"></textarea><br>
 
         <input type="submit" name="submit">
     </form>
