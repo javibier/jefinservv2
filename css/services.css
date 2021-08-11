@@ -88,8 +88,8 @@ body, html, main, section {
    background: hsla(0, 0%, 100%, 0.8);
    position: absolute;
    top: 140%;
-   padding-left: 50%
- }
+   text-align: center;
+}
 
  #quickbooks, #accounting, #financial, #budget, #accounts, #payroll, li {
   font-size: 1.10em;
