@@ -28,6 +28,7 @@ if($_POST["submit"]) {
     </head>
 
 <body>
+    <div class="parallax"></div>
     <header class="col-12">
         <div class="col-6">
             <h1><a href="../index.html">je financial services</a></h1>
@@ -36,18 +37,25 @@ if($_POST["submit"]) {
 
     <?=$thankYou ?>
 
+    <div class="col-12" id="quickbooks">
     <form method="post" action="subscriberform.php">
         <label>Name:</label>
-        <input name="sender">
+        <input name="sender"><br>
 
         <label>Email address:</label>
-        <input name="senderEmail">
+        <input name="senderEmail"><br>
 
         <label>Message:</label>
         <textarea rows="5" cols="20" name="message"></textarea>
 
         <input type="submit" name="submit">
     </form>
+    </div>
+    <footer>
+                <div class="col-12">
+                    <h5>Powered by <em><span><a href="http://www.jechevarria.com" target="_BLANK">javibier</a></span></em></h5>
+                </div>
+            </footer>
 
 </body>
 
