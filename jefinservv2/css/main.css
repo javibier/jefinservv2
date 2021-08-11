@@ -1,0 +1,225 @@
+body, html, main, section {
+    height: 100%;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+  }
+  
+.parallax {
+  /* The image used */
+    background-image: url('../img/82.jpg');
+
+  /* Full height */
+    height: 100%;
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+header {
+    background: rgba(255, 255, 255, .0);
+    position: fixed;
+    top: .05%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.75em;
+    padding-left: 2%;
+}
+
+#service {
+    background: hsla(0, 0%, 100%, 0.8);
+    position: absolute;
+    top: 15%;
+}
+
+#service p {
+    font-size: 1.90em;
+    text-align: center;
+}
+
+#allservices {
+  background: hsla(0, 0%, 100%, 0.8);
+  position: absolute;
+  top: 32%;
+}
+
+#allservices p {
+  font-size: 1.45em;
+  padding-left: 2%;
+}
+
+#allservices nav {
+  padding-left: 3%;
+}
+
+#allservices nav ul li {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.70em;
+}
+
+#allservices h2 {
+  font-size: 2.5em;
+  text-align: center
+}
+
+#allservices a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+ }
+ 
+a:hover {
+  text-decoration: underline;
+}
+
+
+#benefits {
+    display: flex;
+    justify-content: center;
+    background: hsla(0, 0%, 100%, 0.8);
+    position: absolute;
+    top: 95%;
+    height: auto;
+ }
+
+ #benefits p {
+    font-size: 1.15em;
+    text-align: center;
+}
+
+#time, #money, #resources {
+
+    font-size: 1.15em;
+    text-align: center;
+}
+
+/***About***/
+
+#about {
+    background: hsla(0, 0%, 100%, 0.8);
+    position: absolute;
+    top: 120%;
+    height: auto;
+}
+
+#about h2 {
+    font-size: 1.90em;
+    text-align: center;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 1.375em;
+}
+
+#about p {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/***Contact***/
+
+#contact {
+    background: white;
+    position: absolute;
+    top: 165%;
+    height: auto;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.15em;
+}
+
+#contact h2 {
+	 font-size: 1.90em;
+}
+
+footer h5 {
+	  margin: 0 auto;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1025px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+#about {
+  top: 95%;
+}
+}
+
+@media screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+
+#service p {
+  font-size: 1.305em;
+}
+
+#service nav ul li a {
+    font-size: 1.235em;
+    text-decoration: none;
+}
+
+#about {
+  top: 95%;
+}
+
+#about h2 {
+    font-size: 1.71em;
+    text-align: center;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 1.2375em;
+}
+
+#about p {
+    font-size: 1.135em;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.02em;
+}
+
+#contact h2 {
+	font-size: 1.71em;
+}
+
+  [class*="col-"] {
+    width: 100%;
+  }
+}
