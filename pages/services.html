@@ -72,18 +72,17 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12" id="services4">
-                <div class="col-12" id="contactform">
-                  <h2>Contact Us</h2>
-                  <form action=”mailto:javier@jefinserv.com”
-                        method=”POST”
-                        enctype=”multipart/form-data”
-                        name=”EmailForm”>Name:<br>
-                  <input type=”text” size=”19″ name=”ContactName”><br><br>
-          Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-                  </textarea><br><br> <input type=”submit” value=”Submit”> </form>
-                </div>
+            <div class="col-12" id="contactform">
+                <h2>Send e-mail to someone@example.com:</h2>
+
+                <form method=”post” name=”contact_form” action=”subscriberform.php”>
+Your Name: <input type=”text” name=”name”> 
+Email Address: <input type=”text” name=”email”> 
+Message: <textarea name=”message”></textarea>
+<input type=”submit” value=”Submit”>
+</form>
             </div>
+           
         <div class="parallax"></div>                         
             <footer>
                 <div class="col-12">
