@@ -89,6 +89,7 @@ body, html, main, section {
    position: absolute;
    top: 140%;
    text-align: center;
+   height: 20em;
 }
 
  #quickbooks, #accounting, #financial, #budget, #accounts, #payroll, li {
