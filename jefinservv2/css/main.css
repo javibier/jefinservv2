@@ -26,14 +26,13 @@ header {
     background: rgba(255, 255, 255, .0);
     position: fixed;
     top: .05%;
-    height: auto;
 }
 
 
 #service {
+    display: flex;
     background: hsla(0, 0%, 100%, 0.8);
-    position: absolute;
-    top: auto;
+    top: 20%;
 }
 
 #service p {
@@ -43,8 +42,6 @@ header {
 
 #allservices {
   background: hsla(0, 0%, 100%, 0.8);
-  position: absolute;
-  top: auto;
 }
 
 #allservices p {
@@ -76,7 +73,7 @@ a:visited {
  }
  
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 
@@ -84,9 +81,6 @@ a:hover {
     display: flex;
     justify-content: center;
     background: hsla(0, 0%, 100%, 0.8);
-    position: absolute;
-    top: auto;
-    height: auto;
  }
 
  #benefits p {
@@ -95,7 +89,6 @@ a:hover {
 }
 
 #time, #money, #resources {
-
     font-size: 1.15em;
     text-align: center;
 }
@@ -104,9 +97,6 @@ a:hover {
 
 #about {
     background: hsla(0, 0%, 100%, 0.8);
-    position: absolute;
-    top: auto;
-    height: auto;
 }
 
 #about h2 {
@@ -128,9 +118,6 @@ a:hover {
 
 #contact {
     background: white;
-    position: absolute;
-    top: auto;
-    height: auto;
     text-align: center;
 }
 
@@ -139,11 +126,11 @@ a:hover {
 }
 
 #contact h2 {
-	 font-size: 1.90em;
+	font-size: 1.90em;
 }
 
 footer h5 {
-	  margin: 0 auto;
+	margin: 0 auto;
     text-align: center;
 }
 
