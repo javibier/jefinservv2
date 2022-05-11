@@ -52,13 +52,14 @@ header a:hover {
 }
 
 
-#service {
+#slogan {
+    display: flex;
     background: hsla(0, 0%, 100%, 0.8);
     position: absolute;
-    top: 15%;
+    top: 12%;
 }
 
-#service p {
+#slogan p {
     font-size: 1.90em;
     text-align: center;
 }
