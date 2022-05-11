@@ -63,7 +63,7 @@ header {
 
 #allservices h2 {
   font-size: 2.5em;
-  text-align: center
+  text-align: center;
 }
 
 #allservices a {
@@ -140,7 +140,6 @@ a:hover {
 footer {
     background: white;
     text-align: center;
-    bottom: auto;
 }
 
 footer h5 {
