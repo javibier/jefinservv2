@@ -32,6 +32,18 @@ header {
 header h2 {
 }
 
+header a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: gold;
+}
+ 
+header a:hover {
+    text-decoration: underline;
+}
+
 
 #service {
     background: hsla(0, 0%, 100%, 0.8);
