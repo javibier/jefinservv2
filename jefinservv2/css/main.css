@@ -29,6 +29,9 @@ header {
     top: .05%;
 }
 
+header h2 {
+}
+
 
 #service {
     background: hsla(0, 0%, 100%, 0.8);
@@ -71,11 +74,11 @@ header {
     text-decoration: none;
 }
 
-a:visited {
+#allservices a:visited {
     color: black;
  }
  
-a:hover {
+#allservices a:hover {
     text-decoration: underline;
 }
 
